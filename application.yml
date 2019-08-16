@@ -14,9 +14,7 @@ spring:
 hibernate:
   hbm2ssl:
     auto: none
-server:
-  port: 8085
-
+    
 management:
   endpoints:
     web:
