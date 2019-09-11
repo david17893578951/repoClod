@@ -10,10 +10,10 @@ spring:
   database:
     driverClassName: org.postgresql.Driver
   datasource:
-    url: jdbc:postgresql://ec2-23-21-148-223.compute-1.amazonaws.com:5432/dau17vr2h2iaje
+    url: jdbc:postgres://hjnfxwoldhrcec:933964b90e8c43862e23637427eeb184efd521d563ae79dd5e4d015f2761c9d7@ec2-50-16-197-244.compute-1.amazonaws.com:5432/d40inojiqtoiuj
     platform: postgres
-    username: fnxcgjhpdpbxkt
-    password: df9c007f505014f746cf112ff57c4042054d80309e38d38666f800dae9da53c5
+    username: hjnfxwoldhrcec
+    password: 933964b90e8c43862e23637427eeb184efd521d563ae79dd5e4d015f2761c9d7
 hibernate:
   hbm2ssl:
     auto: none
