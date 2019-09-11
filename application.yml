@@ -17,7 +17,12 @@ spring:
 hibernate:
   hbm2ssl:
     auto: none
-    
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://eureka-server-app.herokuapp.com/eureka/
+
 management:
   endpoints:
     web:
