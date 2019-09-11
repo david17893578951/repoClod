@@ -7,10 +7,10 @@ spring:
   database:
     driverClassName: org.postgresql.Driver
   datasource:
-    url: jdbc:postgresql://ec2-50-16-197-244.compute-1.amazonaws.com:5432/d40inojiqtoiuj
+    url: jdbc:postgresql://ec2-54-243-47-196.compute-1.amazonaws.com:5432/d3au11fkj3vu3d
     platform: postgres
-    username: hjnfxwoldhrcec
-    password: 933964b90e8c43862e23637427eeb184efd521d563ae79dd5e4d015f2761c9d7
+    username: lwayepuhlbmtwh
+    password: 467e8b069ed60229b107000f9517ae4321920da711d483c87c4bc2100868b0c0
 hibernate:
   hbm2ssl:
     auto: none
