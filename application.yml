@@ -1,7 +1,6 @@
 server: 
   port: 8085
 
-spring:
   jpa:
     database: POSTGRESQL
     show-sql: true
@@ -10,10 +9,10 @@ spring:
   database:
     driverClassName: org.postgresql.Driver
   datasource:
-    url: jdbc:postgresql://localhost:8082/FEDERACIONDB
+    url: jdbc:postgresql://ec2-23-21-148-223.compute-1.amazonaws.com:5432/dau17vr2h2iaje
     platform: postgres
-    username: postgres
-    password: 17893578951
+    username: fnxcgjhpdpbxkt
+    password: df9c007f505014f746cf112ff57c4042054d80309e38d38666f800dae9da53c5
 hibernate:
   hbm2ssl:
     auto: none
