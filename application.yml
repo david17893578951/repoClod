@@ -23,3 +23,9 @@ management:
       exposure:
         include: hystrix.stream
       base-path: /
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://eureka-server-app.herokuapp.com/eureka/
+
