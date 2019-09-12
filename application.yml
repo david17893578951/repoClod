@@ -25,5 +25,5 @@ management:
 eureka:
   client:
     serviceUrl:
-      defaultZone: https://eureka-server-app.herokuapp.com/eureka/
+      defaultZone: http://localhost:8088/eureka/
 
