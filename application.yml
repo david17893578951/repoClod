@@ -11,10 +11,10 @@ spring:
       ddl-auto: update
   datasource:
     type: org.apache.tomcat.jdbc.pool.DataSource
-    url: jdbc:postgresql://ec2-54-221-214-3.compute-1.amazonaws.com:5432/db4v3npp2so16p
+    url: jdbc:postgresql://ec2-54-225-195-3.compute-1.amazonaws.com:5432/d1k76s6r4q22u3
     platform: postgres
-    username: jjwwxofhujmcrb
-    password: 92b4857c8e07c70701eff8127b4a28d63d987786117f7e0eea6e572c3aa79ec2
+    username: cdfustxbpbelnb
+    password: ad3c6c283fd308bbda0a267d8f5d4e417bf18d62656eb71f869888597d153fb4
   database:
     driverClassName: org.postgresql.Driver
 hibernate:
