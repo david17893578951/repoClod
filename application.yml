@@ -4,14 +4,12 @@ spring:
   jpa:
     database: POSTGRESQL
     show-sql: true
-    hibernate:
-      ddl-auto: update
   datasource:
     type: org.apache.tomcat.jdbc.pool.DataSource
-    url: jdbc:postgresql://ec2-54-225-195-3.compute-1.amazonaws.com:5432/d1k76s6r4q22u3
+    url: jdbc:postgresql://localhost:8082/FEDERACIONDB
     platform: postgres
-    username: cdfustxbpbelnb
-    password: ad3c6c283fd308bbda0a267d8f5d4e417bf18d62656eb71f869888597d153fb4
+    username: postgres
+    password: 17893578951
   database:
     driverClassName: org.postgresql.Driver
 hibernate:
