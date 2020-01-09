@@ -4,7 +4,7 @@ spring:
     show-sql: true
   datasource:
     type: org.apache.tomcat.jdbc.pool.DataSource
-    url: jdbc:postgresql://ec2-184-72-223-163.compute-1.amazonaws.com:5452/df5iqhc8h1fr2o
+    url: jdbc:postgresql://ec2-184-72-223-163.compute-1.amazonaws.com:5432/df5iqhc8h1fr2o
     platform: postgres
     username: ckrjcvgubccozd
     password: cbbc7af2238e22e5ee31fbf0a724c0336d2c2a60d45591e6c1c1ba360c2886e8
