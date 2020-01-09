@@ -4,10 +4,10 @@ spring:
     show-sql: true
   datasource:
     type: org.apache.tomcat.jdbc.pool.DataSource
-    url: jdbc:postgresql://localhost:8082/FEDERACIONDB
+    url: jdbc:postgresql://ec2-184-72-223-163.compute-1.amazonaws.com:5452/df5iqhc8h1fr2o
     platform: postgres
-    username: postgres
-    password: 17893578951
+    username: ckrjcvgubccozd
+    password: cbbc7af2238e22e5ee31fbf0a724c0336d2c2a60d45591e6c1c1ba360c2886e8
   database:
     driverClassName: org.postgresql.Driver
 hibernate:
