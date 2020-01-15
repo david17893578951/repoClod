@@ -1,4 +1,6 @@
 spring:
+  database:
+    driverClassName: org.postgresql.Driver
   jpa:
     database: POSTGRESQL
     show-sql: true
@@ -8,8 +10,7 @@ spring:
     platform: postgres
     username: ckrjcvgubccozd
     password: cbbc7af2238e22e5ee31fbf0a724c0336d2c2a60d45591e6c1c1ba360c2886e8
-  database:
-    driverClassName: org.postgresql.Driver
+  
 hibernate:
   hbm2ssl:
     auto: none
